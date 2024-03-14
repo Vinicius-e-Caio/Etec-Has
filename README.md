@@ -1,2 +1,2 @@
-# Etec-Has
-Repositório Etec-Has
+# Python
+Etec-Has exercícios sobre Python

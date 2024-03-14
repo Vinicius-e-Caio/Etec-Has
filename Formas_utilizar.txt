@@ -1,0 +1,7 @@
+Formas de utilizar o python
+-via command (cmd)
+-gravado via S.O                                   
+
+exercicio
+1- crie outra pasta e em outro arquivo escreva um código com 2 linhas e mande executar
+2- Criar um programa com 2 linhas via pycharm
