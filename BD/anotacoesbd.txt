@@ -1,0 +1,30 @@
+
+DDL - Estrutura
+
+Relacionamentos
+
+1 - 1 e 1 - N
+criando tabelas
+
+sintaxe:  create table <table_name> ( column_name1 data_type(size)
+ [constraint contraint_name constraint_type],
+…………………………..,
+ column_nameN data_type(size)
+ [constraint contraint_name] constraint_type);
+
+Data Type(size): char(n)
+		    varchar(n)
+		    date
+		    number(x) - number(x,y)
+
+Constraint: PK - primary key
+	       FK - foreign key
+	       NN - not null
+	       Uk - unique
+	       Ck - check
+
+
+fase 1:
+N pra N não existe na parte prática, no modelo lógico ele desmembra e vira uma nova table
+imagine que você tem o número 1500.75 isso em casas decimais ficaria 4 posições antes da vírgula e 2 depois mas no sql você teria que somar esse 4 com esse 2 que ficaria 6 e prevalecer a casa decimal, ou seja, ficaria 6,2 e para transformar isso de volta na vida real é só subtrair
+

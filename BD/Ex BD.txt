@@ -1,0 +1,11 @@
+create table Pedidos (
+    id_pedido number(5) primary key,
+    total_pedido number(), 
+    dt_pedido date
+);
+
+create table Pagamento (
+    id_pagto number(5) primary key,
+    nm_pagto varchar(30) constraint pagto_nm_nn not null
+    					 constraint pagto_nm_uk unique
+);
